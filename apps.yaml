@@ -1,6 +1,9 @@
 continuum:
   git: https://github.com/cygnusx-1-org/continuum
   name: "Continuum"
+  # Continuum's launcher icon is an adaptive (XML) icon, so fdroid can't
+  # extract a raster from the APK. Point at a PNG in the upstream repo.
+  icon: fastlane/metadata/android/en-US/images/icon.png
   description: |
     Ad-free Reddit client for Android. Fork of Infinity for Reddit with a clean
     UI and custom API client ID support.
@@ -10,11 +13,3 @@ continuum:
     repo's index is signed by the repo maintainer.
   categories:
     - Internet
-
-  # NOTE (multi-ABI caveat): Continuum publishes several per-ABI APKs per release
-  # (continuum-arm64-v8a-*.apk, continuum-armeabi-v7a-*.apk) and no "universal"
-  # APK. metascoop's FindAPKRelease() currently errors on that case
-  # (metascoop/apps/info.go). Options, pick one before the first CI run:
-  #   1. Patch FindAPKRelease() to prefer arm64-v8a when no universal is found.
-  #   2. Switch to the manual `fdroid update` flow (REPORT.md, Option B) which
-  #      ingests every APK in fdroid/repo/ and serves the right ABI per device.
