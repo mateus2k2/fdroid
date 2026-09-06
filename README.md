@@ -1,36 +1,56 @@
-# fdroid
-This repository hosts an [F-Droid](https://f-droid.org/) repo for my apps. This allows you to install and update apps very easily.
+# Mateus' F-Droid repo
+
+A personal, unofficial [F-Droid](https://f-droid.org/) repository. It mirrors the
+original, developer-signed release APKs of a few apps so they can be installed and
+kept up to date through an F-Droid client.
+
+Only this repo's **index** is signed by me. Each APK keeps its **original
+developer signature**, and the index pins each package to that developer's
+signing key, so a compromise of this repo or its host cannot push a tampered
+"update".
 
 ### Apps
 
 <!-- This table is auto-generated. Do not edit -->
 | Icon | Name | Description | Version |
 | --- | --- | --- | --- |
-| <a href="https://github.com/xarantolus/notality"><img src="fdroid/repo/icons/io.github.xarantolus.notality.10.png" alt="Notality icon" width="36px" height="36px"></a> | [**Notality**](https://github.com/xarantolus/notality) | A very simple note taking app for Android | 1.8.1 (10) |
-| <a href="https://github.com/xarantolus/rockit"><img src="fdroid/repo/io.github.xarantolus.rockit/en-US/icon_OWiNCX3blbejcMlFEOTgHrKN32Q7UElOeEtytHBEPbo=.png" alt="Rock It! icon" width="36px" height="36px"></a> | [**Rock It!**](https://github.com/xarantolus/rockit) | Rock It! is an Android app that helps you stay informed on all things space | 1.7.1 (25) |
+| | [**Continuum**](https://github.com/cygnusx-1-org/continuum) | Ad-free Reddit client for Android (fork of Infinity for Reddit) | _pending first CI run_ |
 <!-- end apps table -->
 
 ### How to use
-1. At first, you should [install the F-Droid app](https://f-droid.org/), it's an alternative app store for Android.
-2. Now you can copy the following [link](https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo?fingerprint=080898ae4309aeceb58915e43a4b7c4a3e2cda40c91738e2c02f58339ab2fbd7), then add this repository to your F-Droid client:
 
-    ```
-    https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo?fingerprint=080898ae4309aeceb58915e43a4b7c4a3e2cda40c91738e2c02f58339ab2fbd7
-    ```
+1. Install an F-Droid client — [F-Droid](https://f-droid.org/) or a fork like
+   [Droid-ify](https://github.com/Droid-ify/client).
+2. Add this repository:
 
-    Alternatively, you can also scan this QR code:
+   ```
+   https://raw.githubusercontent.com/mateus2k2/fdroid/main/fdroid/repo?fingerprint=d5c9373ac0431150dc54b59a6364e1dfb0ead9ef61591e14f95845168eb7a794
+   ```
 
-    <p align="center">
-      <img src=".github/qrcode.png?raw=true" alt="F-Droid repo QR code"/>
-    </p>
+   Or scan this QR code:
 
-3. Open the link in F-Droid. It will ask you to add the repository. Everything should already be filled in correctly, so just press "OK".
-4. You can now install my apps, e.g. start by searching for "Notality" in the F-Droid client.
+   <p align="center">
+     <img src=".github/qrcode.png?raw=true" alt="F-Droid repo QR code"/>
+   </p>
 
-Please note that some apps published here might contain [Anti-Features](https://f-droid.org/en/docs/Anti-Features/). If you can't find an app by searching for it, you can go to settings and enable "Include anti-feature apps".
+3. Open the link in your F-Droid client and confirm the repository (URL and
+   fingerprint are pre-filled).
+4. Search for the app (e.g. "Continuum") and install it. Updates then arrive
+   automatically.
 
-### For developers
-If you are a developer and want to publish your own apps right from GitHub Actions as an F-Droid repo, you can fork/copy this repo and see  [the documentation](setup.md) for more information on how to set it up.
+### How it works
+
+A scheduled GitHub Action polls each app's upstream GitHub releases, downloads
+new release APKs, rebuilds and signs the repo index with
+[`fdroidserver`](https://gitlab.com/fdroid/fdroidserver), and commits the result
+to `fdroid/repo/`, which is served raw from this repo. See [setup.md](setup.md)
+for how the machinery is wired, and [SETUP-CONTINUUM.md](SETUP-CONTINUUM.md) for
+this repo's specifics.
+
+Built on the [xarantolus/fdroid](https://github.com/xarantolus/fdroid) template.
 
 ### [License](LICENSE)
-The license is for the files in this repository, *except* those in the `fdroid` directory. These files *might* be licensed differently; you can use an F-Droid client to get the details for each app.
+
+The license covers the files in this repository *except* those under `fdroid/`.
+Those APKs belong to their respective upstream projects and keep their own
+licenses (Continuum: AGPL-3.0); use an F-Droid client to see per-app details.
