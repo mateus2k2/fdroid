@@ -1,25 +1,21 @@
-Categories:
-  - Internet
-License: AGPL-3.0-only
-AuthorName: cygnusx-1-org
-SourceCode: https://github.com/cygnusx-1-org/continuum
-IssueTracker: https://github.com/cygnusx-1-org/continuum/issues
-
-AutoName: Continuum
-Summary: Ad-free Reddit client for Android
-Description: |-
-  Ad-free Reddit client for Android. Fork of Infinity for Reddit with a clean
-  UI and custom API client ID support.
-
-  Binaries are the original, developer-signed APKs from the upstream GitHub
-  releases, redistributed unmodified. Only this repo's index is signed by the
-  repo maintainer.
-
-# Pin to the upstream developer's signing certificate (SHA-256, lowercase, no
-# colons). The F-Droid client will reject any APK for this package not signed
-# by this key, so a compromise of this repo or its host cannot push a tampered
-# "update". metascoop preserves this field when it regenerates the file.
 AllowedAPKSigningKeys:
-  - 4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3
+    - 4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3
+AuthorName: cygnusx-1-org
+AutoName: Continuum
+Categories:
+    - Internet
+CurrentVersion: 8.3.0.3
+CurrentVersionCode: 228
+Description: |
+    Ad-free Reddit client for Android. Fork of Infinity for Reddit with a clean
+    UI and custom API client ID support.
 
+    Binaries are the original, developer-signed APKs from the upstream GitHub
+    releases, redistributed unmodified under the AGPL-3.0 license. Only this
+    repo's index is signed by the repo maintainer.
+IssueTracker: https://github.com/cygnusx-1-org/continuum/issues
+License: AGPL-3.0
+Name: Continuum
+SourceCode: https://github.com/cygnusx-1-org/continuum
+Summary: A Reddit client for Android
 UpdateCheckMode: None

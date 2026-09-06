@@ -1,0 +1,64 @@
+{
+  "repo": {
+    "timestamp": 1788730729000
+  },
+  "packages": {
+    "org.cygnusx1.continuum": {
+      "metadata": {
+        "license": "AGPL-3.0",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/org.cygnusx1.continuum/en-US/phoneScreenshots/1.png",
+                "sha256": "78e222b976a0254e0f8e1677216333a9f7b593bd80a95625e8e63cfe354b2803",
+                "size": 230312
+              },
+              {
+                "name": "/org.cygnusx1.continuum/en-US/phoneScreenshots/2.png",
+                "sha256": "7749e7fed6135a92c94d9276f055fdb22acd40a83b3e358644180debff4f5dd1",
+                "size": 284019
+              },
+              {
+                "name": "/org.cygnusx1.continuum/en-US/phoneScreenshots/3.png",
+                "sha256": "ce3797c721d712f6c1fd2530f3664c65cbe309f0d5c83ef450e4545955ed7815",
+                "size": 200287
+              },
+              {
+                "name": "/org.cygnusx1.continuum/en-US/phoneScreenshots/4.png",
+                "sha256": "513d453ec8580c3389ee37454bf0a511f38d776be5a2e0a7c45b3d26d13926e1",
+                "size": 422021
+              },
+              {
+                "name": "/org.cygnusx1.continuum/en-US/phoneScreenshots/5.png",
+                "sha256": "4326821dee22b1ea8ed3ee5904aa15afd56303b5c1a82cd794bbdfaf0d481c99",
+                "size": 288770
+              },
+              {
+                "name": "/org.cygnusx1.continuum/en-US/phoneScreenshots/6.png",
+                "sha256": "2d3796bcd5f59d67078a2c7d4f459f570224934229426cb531a5cb11f5f6e691",
+                "size": 135836
+              },
+              {
+                "name": "/org.cygnusx1.continuum/en-US/phoneScreenshots/7.png",
+                "sha256": "2f50c403f3bf696eedd06cd77a5bee3e7a6f29318daa54d12c1b64e1f772faba",
+                "size": 259426
+              },
+              {
+                "name": "/org.cygnusx1.continuum/en-US/phoneScreenshots/8.png",
+                "sha256": "8877d0edeabb50611154363da1114b7303d195f8f817ad1e1a3bb286a777895e",
+                "size": 84690
+              }
+            ]
+          }
+        },
+        "summary": {
+          "en-US": "A Reddit client for Android"
+        },
+        "description": {
+          "en-US": "Ad-free Reddit client for Android. Fork of Infinity for Reddit with a clean\nUI and custom API client ID support.\n\nBinaries are the original, developer-signed APKs from the upstream GitHub\nreleases, redistributed unmodified under the AGPL-3.0 license. Only this\nrepo's index is signed by the repo maintainer.\n"
+        }
+      }
+    }
+  }
+}

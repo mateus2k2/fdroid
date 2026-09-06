@@ -1,0 +1,494 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "Mateus F-Droid repo"
+    },
+    "description": {
+      "en-US": "Personal, unofficial repo. Redistributes the upstream developer-signed Continuum APKs (AGPL-3.0), unmodified. Only this repo's index is signed by the repo maintainer; APK signatures stay the original developer's."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "e4646cda6b25a8332bf77e5215546e8e983ad8378c9ae26840ec377301a41455",
+        "size": 944
+      }
+    },
+    "address": "https://raw.githubusercontent.com/mateus2k2/fdroid/main/fdroid/repo",
+    "timestamp": 1788730729000,
+    "categories": {
+      "Internet": {
+        "name": {
+          "en-US": "Internet"
+        }
+      }
+    }
+  },
+  "packages": {
+    "org.cygnusx1.continuum": {
+      "metadata": {
+        "added": 1788730712000,
+        "categories": [
+          "Internet"
+        ],
+        "issueTracker": "https://github.com/cygnusx-1-org/continuum/issues",
+        "lastUpdated": 1788730717000,
+        "license": "AGPL-3.0",
+        "sourceCode": "https://github.com/cygnusx-1-org/continuum",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/org.cygnusx1.continuum/en-US/phoneScreenshots/1.png",
+                "sha256": "78e222b976a0254e0f8e1677216333a9f7b593bd80a95625e8e63cfe354b2803",
+                "size": 230312
+              },
+              {
+                "name": "/org.cygnusx1.continuum/en-US/phoneScreenshots/2.png",
+                "sha256": "7749e7fed6135a92c94d9276f055fdb22acd40a83b3e358644180debff4f5dd1",
+                "size": 284019
+              },
+              {
+                "name": "/org.cygnusx1.continuum/en-US/phoneScreenshots/3.png",
+                "sha256": "ce3797c721d712f6c1fd2530f3664c65cbe309f0d5c83ef450e4545955ed7815",
+                "size": 200287
+              },
+              {
+                "name": "/org.cygnusx1.continuum/en-US/phoneScreenshots/4.png",
+                "sha256": "513d453ec8580c3389ee37454bf0a511f38d776be5a2e0a7c45b3d26d13926e1",
+                "size": 422021
+              },
+              {
+                "name": "/org.cygnusx1.continuum/en-US/phoneScreenshots/5.png",
+                "sha256": "4326821dee22b1ea8ed3ee5904aa15afd56303b5c1a82cd794bbdfaf0d481c99",
+                "size": 288770
+              },
+              {
+                "name": "/org.cygnusx1.continuum/en-US/phoneScreenshots/6.png",
+                "sha256": "2d3796bcd5f59d67078a2c7d4f459f570224934229426cb531a5cb11f5f6e691",
+                "size": 135836
+              },
+              {
+                "name": "/org.cygnusx1.continuum/en-US/phoneScreenshots/7.png",
+                "sha256": "2f50c403f3bf696eedd06cd77a5bee3e7a6f29318daa54d12c1b64e1f772faba",
+                "size": 259426
+              },
+              {
+                "name": "/org.cygnusx1.continuum/en-US/phoneScreenshots/8.png",
+                "sha256": "8877d0edeabb50611154363da1114b7303d195f8f817ad1e1a3bb286a777895e",
+                "size": 84690
+              }
+            ]
+          }
+        },
+        "authorName": "cygnusx-1-org",
+        "name": {
+          "en-US": "Continuum"
+        },
+        "summary": {
+          "en-US": "A Reddit client for Android"
+        },
+        "description": {
+          "en-US": "Ad-free Reddit client for Android. Fork of Infinity for Reddit with a clean\nUI and custom API client ID support.\n\nBinaries are the original, developer-signed APKs from the upstream GitHub\nreleases, redistributed unmodified under the AGPL-3.0 license. Only this\nrepo's index is signed by the repo maintainer.\n"
+        },
+        "preferredSigner": "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3"
+      },
+      "versions": {
+        "b642b95a037ab02cb9ad27666347989070b9048cd09e8a798e3114f2d8f936ee": {
+          "added": 1788730714000,
+          "file": {
+            "name": "/continuum_8.3.0.1.apk",
+            "sha256": "b642b95a037ab02cb9ad27666347989070b9048cd09e8a798e3114f2d8f936ee",
+            "size": 32250292
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "8.3.0.1",
+            "versionCode": 228,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RUN_USER_INITIATED_JOBS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "org.cygnusx1.continuum.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        },
+        "fe78ca206a377435e19583fc1666dfeaef22956fdef1321a9926d572fe2f9211": {
+          "added": 1788730716000,
+          "file": {
+            "name": "/continuum_8.3.0.2.apk",
+            "sha256": "fe78ca206a377435e19583fc1666dfeaef22956fdef1321a9926d572fe2f9211",
+            "size": 32252488
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "8.3.0.2",
+            "versionCode": 228,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RUN_USER_INITIATED_JOBS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "org.cygnusx1.continuum.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        },
+        "c990a2a4bbc2e33fdab1b02bfd8d6db43baa19ab51c63409b75c29a44a504852": {
+          "added": 1788730717000,
+          "file": {
+            "name": "/continuum_8.3.0.3.apk",
+            "sha256": "c990a2a4bbc2e33fdab1b02bfd8d6db43baa19ab51c63409b75c29a44a504852",
+            "size": 32283377
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "8.3.0.3",
+            "versionCode": 228,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RUN_USER_INITIATED_JOBS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "org.cygnusx1.continuum.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        },
+        "42a28882c30585fe74787f1ceb04ef77d362e2156396d7f49557613a85407d66": {
+          "added": 1788730712000,
+          "file": {
+            "name": "/continuum_8.2.5.9.9.9.6.apk",
+            "sha256": "42a28882c30585fe74787f1ceb04ef77d362e2156396d7f49557613a85407d66",
+            "size": 30079049
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "8.2.5.9.9.9.6",
+            "versionCode": 225,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RUN_USER_INITIATED_JOBS"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.cygnusx1.continuum.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        },
+        "ea808a3d858202bba414d5340e1096bfabf1d122cd2b5f795ce05bd093e2e508": {
+          "added": 1788730713000,
+          "file": {
+            "name": "/continuum_8.2.5.9.9.9.7.apk",
+            "sha256": "ea808a3d858202bba414d5340e1096bfabf1d122cd2b5f795ce05bd093e2e508",
+            "size": 32101960
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "8.2.5.9.9.9.7",
+            "versionCode": 225,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RUN_USER_INITIATED_JOBS"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.cygnusx1.continuum.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

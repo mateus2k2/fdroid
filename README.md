@@ -14,7 +14,7 @@ signing key, so a compromise of this repo or its host cannot push a tampered
 <!-- This table is auto-generated. Do not edit -->
 | Icon | Name | Description | Version |
 | --- | --- | --- | --- |
-| | [**Continuum**](https://github.com/cygnusx-1-org/continuum) | Ad-free Reddit client for Android (fork of Infinity for Reddit) | _pending first CI run_ |
+|  | [**Continuum**](https://github.com/cygnusx-1-org/continuum) | A Reddit client for Android | 8.3.0.3 (228) |
 <!-- end apps table -->
 
 ### How to use
