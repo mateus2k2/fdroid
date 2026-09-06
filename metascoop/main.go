@@ -31,6 +31,8 @@ func main() {
 		accessToken  = flag.String("pat", "", "GitHub personal access token")
 
 		debugMode = flag.Bool("debug", false, "Debug mode won't run the fdroid command")
+
+		maxReleases = flag.Int("mr", 5, "Keep only the N most recent releases per app (0 = all). Older APKs already in the repo are pruned.")
 	)
 	flag.Parse()
 
@@ -75,6 +77,10 @@ func main() {
 	// map[apkName]info
 	var apkInfoMap = make(map[string]apps.AppInfo)
 
+	// APK filenames that belong to a kept release; anything else in repoDir
+	// is pruned after the loop.
+	var keepAPKs = make(map[string]bool)
+
 	for _, app := range appsList {
 		fmt.Printf("App: %s/%s\n", app.Author(), app.Name())
 
@@ -107,6 +113,15 @@ func main() {
 		}
 
 		log.Printf("Received %d releases", len(releases))
+
+		// GitHub returns releases newest-first. Keep only the most recent
+		// few so the repo doesn't accumulate every historical APK (some
+		// projects have hundreds), which would bloat the git repo serving
+		// it. Older APKs still on disk are pruned after this loop.
+		if *maxReleases > 0 && len(releases) > *maxReleases {
+			log.Printf("Limiting to the %d most recent releases", *maxReleases)
+			releases = releases[:*maxReleases]
+		}
 
 		for _, release := range releases {
 			fmt.Printf("::group::Release %s\n", release.GetTagName())
@@ -151,6 +166,7 @@ func main() {
 				}
 
 				apkInfoMap[appName] = appClone
+				keepAPKs[appName] = true
 
 				appTargetPath := filepath.Join(*repoDir, appName)
 
@@ -181,6 +197,21 @@ func main() {
 
 				log.Printf("Successfully downloaded app for version %q", release.GetTagName())
 			}()
+		}
+	}
+
+	// Prune APKs from releases that are no longer in the keep window. The
+	// following `fdroid update --delete-unknown` then drops their metadata
+	// and index entries.
+	if existing, gerr := filepath.Glob(filepath.Join(*repoDir, "*.apk")); gerr == nil {
+		for _, p := range existing {
+			if keepAPKs[filepath.Base(p)] {
+				continue
+			}
+			log.Printf("Pruning stale APK %s", filepath.Base(p))
+			if rerr := os.Remove(p); rerr != nil {
+				log.Printf("Error pruning %s: %s", p, rerr.Error())
+			}
 		}
 	}
 
