@@ -56,7 +56,12 @@ func main() {
 	fdroidIndexFilePath := filepath.Join(*repoDir, "index-v1.json")
 
 	initialFdroidIndex, err := apps.ReadIndex(fdroidIndexFilePath)
-	if err != nil {
+	if os.IsNotExist(err) {
+		// First run on a fresh repo: no index has been committed yet.
+		// Treat it as empty so the end-of-run "significant changes" diff
+		// still works; `fdroid update` below creates the real index.
+		initialFdroidIndex = &apps.RepoIndex{}
+	} else if err != nil {
 		log.Fatalf("reading f-droid repo index: %s\n", err.Error())
 	}
 

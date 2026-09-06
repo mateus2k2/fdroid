@@ -15,8 +15,9 @@ import (
 // FindAPKRelease picks the single APK to publish for a release, or nil if it
 // has none. Only one APK per release is supported: they are stored as
 // <app>_<tag>.apk, so several would overwrite each other. A release carrying
-// per-ABI splits is therefore ambiguous unless one of them is the universal
-// APK, and is reported rather than resolved by guessing.
+// per-ABI splits is resolved by preferring the universal APK, then arm64-v8a,
+// then armeabi-v7a (covers effectively every current Android device); anything
+// still ambiguous is reported rather than guessed.
 func FindAPKRelease(release *github.RepositoryRelease) (*github.ReleaseAsset, error) {
 	var candidates []*github.ReleaseAsset
 	for _, asset := range release.Assets {
@@ -32,9 +33,13 @@ func FindAPKRelease(release *github.RepositoryRelease) (*github.ReleaseAsset, er
 		return candidates[0], nil
 	}
 
-	for _, asset := range candidates {
-		if strings.Contains(strings.ToLower(asset.GetName()), "universal") {
-			return asset, nil
+	// Preference order for per-ABI split releases (e.g. Continuum:
+	// continuum-arm64-v8a-<ver>.apk, continuum-armeabi-v7a-<ver>.apk).
+	for _, want := range []string{"universal", "arm64-v8a", "arm64", "armeabi-v7a", "armeabi"} {
+		for _, asset := range candidates {
+			if strings.Contains(strings.ToLower(asset.GetName()), want) {
+				return asset, nil
+			}
 		}
 	}
 
@@ -43,7 +48,7 @@ func FindAPKRelease(release *github.RepositoryRelease) (*github.ReleaseAsset, er
 		names = append(names, asset.GetName())
 	}
 
-	return nil, fmt.Errorf("release %q has %d APK assets and none is universal: %s",
+	return nil, fmt.Errorf("release %q has %d APK assets and none is universal or a recognized ABI: %s",
 		release.GetTagName(), len(candidates), strings.Join(names, ", "))
 }
 
