@@ -7,7 +7,7 @@ echo "::endgroup::"
 
 ./metascoop -ap=../apps.yaml -rd=../fdroid/repo -pat="$GH_ACCESS_TOKEN" $1
 EXIT_CODE=$?
-cd ..
+cd .. 
 
 echo "Scoop had an exit code of $EXIT_CODE"
 
