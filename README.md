@@ -14,7 +14,7 @@ signing key, so a compromise of this repo or its host cannot push a tampered
 <!-- This table is auto-generated. Do not edit -->
 | Icon | Name | Description | Version |
 | --- | --- | --- | --- |
-|  | [**Continuum**](https://github.com/cygnusx-1-org/continuum) | A Reddit client for Android | 8.3.0.3 (228) |
+| <a href="https://github.com/cygnusx-1-org/continuum"><img src="fdroid/repo/org.cygnusx1.continuum/en-US/icon_VHBN-SbizYFpEdojdEE1wc07pQPrrZ_5BftOlZcRihE=.png" alt="Continuum icon" width="36px" height="36px"></a> | [**Continuum**](https://github.com/cygnusx-1-org/continuum) | A Reddit client for Android | 8.3.0.3 (228) |
 <!-- end apps table -->
 
 ### How to use

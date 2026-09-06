@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/mateus2k2/fdroid/main/fdroid/repo",
-    "timestamp": 1788730729000,
+    "timestamp": 1788731306000,
     "categories": {
       "Internet": {
         "name": {
@@ -89,6 +89,13 @@
         },
         "description": {
           "en-US": "Ad-free Reddit client for Android. Fork of Infinity for Reddit with a clean\nUI and custom API client ID support.\n\nBinaries are the original, developer-signed APKs from the upstream GitHub\nreleases, redistributed unmodified under the AGPL-3.0 license. Only this\nrepo's index is signed by the repo maintainer.\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/org.cygnusx1.continuum/en-US/icon_VHBN-SbizYFpEdojdEE1wc07pQPrrZ_5BftOlZcRihE=.png",
+            "sha256": "54704df926e2cd816911da23744135c1cd3ba503ebad9ff905fb4e9597118a11",
+            "size": 41189
+          }
         },
         "preferredSigner": "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3"
       },
