@@ -32,7 +32,7 @@ func main() {
 
 		debugMode = flag.Bool("debug", false, "Debug mode won't run the fdroid command")
 
-		maxReleases = flag.Int("mr", 1, "Keep only the N most recent releases per app (0 = all). Older APKs already in the repo are pruned. Default 1: some upstreams (e.g. Continuum) reuse one versionCode across several tagged releases, and F-Droid keys versions by versionCode, so keeping older ones just shows up as duplicate \"installed\" entries.")
+		maxReleases = flag.Int("mr", 5, "Keep only the N most recent releases per app (0 = all). Older APKs already in the repo are pruned.")
 	)
 	flag.Parse()
 
