@@ -27,6 +27,11 @@ jobs:
 
       - name: Restore correct mtime
         run: |
+          # The runner image pre-configures third-party apt repos (Google
+          # Chrome, Microsoft) that occasionally publish an inconsistent index
+          # and make `apt-get update` exit non-zero. We don't need them.
+          sudo rm -f /etc/apt/sources.list.d/google-chrome.list \
+                     /etc/apt/sources.list.d/microsoft-prod.list
           sudo apt-get update
           sudo apt-get install -y git-restore-mtime
           git restore-mtime
