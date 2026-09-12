@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1788915065000,
+    "timestamp": 1789197776000,
     "version": 20002,
     "name": "Mateus F-Droid repo",
     "icon": "icon.png",
@@ -20,7 +20,7 @@
       "categories": [
         "Internet"
       ],
-      "suggestedVersionName": "8.3.0.4",
+      "suggestedVersionName": "8.3.1.1",
       "suggestedVersionCode": "228",
       "description": "Ad-free Reddit client for Android. Fork of Infinity for Reddit with a clean\nUI and custom API client ID support.\n\nBinaries are the original, developer-signed APKs from the upstream GitHub\nreleases, redistributed unmodified under the AGPL-3.0 license. Only this\nrepo's index is signed by the repo maintainer.\n",
       "issueTracker": "https://github.com/cygnusx-1-org/continuum/issues",
@@ -30,7 +30,7 @@
       "summary": "A Reddit client for Android",
       "added": 1788913637000,
       "packageName": "org.cygnusx1.continuum",
-      "lastUpdated": 1788915050000,
+      "lastUpdated": 1789197762000,
       "localized": {
         "en-US": {
           "icon": "icon_VHBN-SbizYFpEdojdEE1wc07pQPrrZ_5BftOlZcRihE=.png",
@@ -44,7 +44,7 @@
             "7.png",
             "8.png"
           ],
-          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Implemented Resume where I left off\n* Added a quicktoggle for Resume, and it defaults to off\n* Fixed Not able to set video quality in NSFW subs #388\n* Renamed This Account to Account, and All Accounts to Global in Settings\n* Moved Theme from the Account section of Settings to a new Themes section\n* Fixed the color of the Read Aloud icon\n* Moved the random subreddit options in search to their own screen behind the dice "
+          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Updated to `upstream` version `8.3.1`\n* Added `Shadowbox Mode`\n* Fixed `Settings | Video | Autoplay GIFs in Comments`\n* Added inline playback for `dropr`, `dubz`, `mlb`, `streamain`, `streamff`, and `streamin` links\n* Added `mlb` to the `Data Saving` default list\n\n`Shadowbox Mode` is a new choice in the `overflow`/`...` menus of various feeds. It is a fullscreen mode with a hidable bottom bar. It lets you horizontally "
         }
       }
     }
@@ -392,9 +392,9 @@
         "versionName": "8.3.0.4"
       },
       {
-        "added": 1788915047000,
-        "apkName": "continuum_8.2.5.9.9.9.7.apk",
-        "hash": "ea808a3d858202bba414d5340e1096bfabf1d122cd2b5f795ce05bd093e2e508",
+        "added": 1789197762000,
+        "apkName": "continuum_8.3.1.1.apk",
+        "hash": "ab56fe7d512fd6948391cc2c1d35e79a58558f37c4e094f5765c04040a9f6df2",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -403,8 +403,8 @@
         "packageName": "org.cygnusx1.continuum",
         "sig": "2e222b788ea534cef6ffd918bb1a86a8",
         "signer": "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3",
-        "size": 32101960,
-        "targetSdkVersion": 35,
+        "size": 32424572,
+        "targetSdkVersion": 36,
         "uses-permission": [
           [
             "android.permission.ACCESS_NETWORK_STATE",
@@ -447,15 +447,15 @@
             null
           ],
           [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
             "android.permission.USE_BIOMETRIC",
             null
           ],
           [
             "android.permission.USE_FINGERPRINT",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
             null
           ],
           [
@@ -473,8 +473,8 @@
             28
           ]
         ],
-        "versionCode": 225,
-        "versionName": "8.2.5.9.9.9.7"
+        "versionCode": 228,
+        "versionName": "8.3.1.1"
       }
     ]
   }
