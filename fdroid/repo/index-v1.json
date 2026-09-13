@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1789197776000,
+    "timestamp": 1789285260000,
     "version": 20002,
     "name": "Mateus F-Droid repo",
     "icon": "icon.png",
@@ -20,8 +20,8 @@
       "categories": [
         "Internet"
       ],
-      "suggestedVersionName": "8.3.1.1",
-      "suggestedVersionCode": "228",
+      "suggestedVersionName": "8.3.1.2",
+      "suggestedVersionCode": "229",
       "description": "Ad-free Reddit client for Android. Fork of Infinity for Reddit with a clean\nUI and custom API client ID support.\n\nBinaries are the original, developer-signed APKs from the upstream GitHub\nreleases, redistributed unmodified under the AGPL-3.0 license. Only this\nrepo's index is signed by the repo maintainer.\n",
       "issueTracker": "https://github.com/cygnusx-1-org/continuum/issues",
       "license": "AGPL-3.0",
@@ -30,7 +30,7 @@
       "summary": "A Reddit client for Android",
       "added": 1788913637000,
       "packageName": "org.cygnusx1.continuum",
-      "lastUpdated": 1789197762000,
+      "lastUpdated": 1789285248000,
       "localized": {
         "en-US": {
           "icon": "icon_VHBN-SbizYFpEdojdEE1wc07pQPrrZ_5BftOlZcRihE=.png",
@@ -44,7 +44,7 @@
             "7.png",
             "8.png"
           ],
-          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Updated to `upstream` version `8.3.1`\n* Added `Shadowbox Mode`\n* Fixed `Settings | Video | Autoplay GIFs in Comments`\n* Added inline playback for `dropr`, `dubz`, `mlb`, `streamain`, `streamff`, and `streamin` links\n* Added `mlb` to the `Data Saving` default list\n\n`Shadowbox Mode` is a new choice in the `overflow`/`...` menus of various feeds. It is a fullscreen mode with a hidable bottom bar. It lets you horizontally "
+          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Fixed Bug: Crashes on setting restoration #401\n* Preloaded compact thumbnails so they appear without pop-in\n* Reverted \"Keep screen on when autoplaying videos.\" from upstream\n* Implemented Configurable thumbnail size for compact layout #355"
         }
       }
     }
@@ -52,9 +52,9 @@
   "packages": {
     "org.cygnusx1.continuum": [
       {
-        "added": 1788915048000,
-        "apkName": "continuum_8.3.0.1.apk",
-        "hash": "b642b95a037ab02cb9ad27666347989070b9048cd09e8a798e3114f2d8f936ee",
+        "added": 1789285248000,
+        "apkName": "continuum_8.3.1.2.apk",
+        "hash": "ec87690e2a3fc9744eee702fd0f96dcc6a1aa2d9e9a7594d4f03e84805ed002a",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -63,7 +63,7 @@
         "packageName": "org.cygnusx1.continuum",
         "sig": "2e222b788ea534cef6ffd918bb1a86a8",
         "signer": "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3",
-        "size": 32250292,
+        "size": 32409564,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -133,8 +133,8 @@
             28
           ]
         ],
-        "versionCode": 228,
-        "versionName": "8.3.0.1"
+        "versionCode": 229,
+        "versionName": "8.3.1.2"
       },
       {
         "added": 1788915049000,
