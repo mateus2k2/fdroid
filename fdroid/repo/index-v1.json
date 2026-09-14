@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1789285260000,
+    "timestamp": 1789373325000,
     "version": 20002,
     "name": "Mateus F-Droid repo",
     "icon": "icon.png",
@@ -20,7 +20,7 @@
       "categories": [
         "Internet"
       ],
-      "suggestedVersionName": "8.3.1.2",
+      "suggestedVersionName": "8.3.1.3",
       "suggestedVersionCode": "229",
       "description": "Ad-free Reddit client for Android. Fork of Infinity for Reddit with a clean\nUI and custom API client ID support.\n\nBinaries are the original, developer-signed APKs from the upstream GitHub\nreleases, redistributed unmodified under the AGPL-3.0 license. Only this\nrepo's index is signed by the repo maintainer.\n",
       "issueTracker": "https://github.com/cygnusx-1-org/continuum/issues",
@@ -30,7 +30,7 @@
       "summary": "A Reddit client for Android",
       "added": 1788913637000,
       "packageName": "org.cygnusx1.continuum",
-      "lastUpdated": 1789285248000,
+      "lastUpdated": 1789373310000,
       "localized": {
         "en-US": {
           "icon": "icon_VHBN-SbizYFpEdojdEE1wc07pQPrrZ_5BftOlZcRihE=.png",
@@ -44,7 +44,7 @@
             "7.png",
             "8.png"
           ],
-          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Fixed Bug: Crashes on setting restoration #401\n* Preloaded compact thumbnails so they appear without pop-in\n* Reverted \"Keep screen on when autoplaying videos.\" from upstream\n* Implemented Configurable thumbnail size for compact layout #355"
+          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Fixed Inline video autoplay intermittently fails until the post is scrolled off and back; GIFs load much slower than videos #403"
         }
       }
     }
@@ -137,9 +137,9 @@
         "versionName": "8.3.1.2"
       },
       {
-        "added": 1788915049000,
-        "apkName": "continuum_8.3.0.2.apk",
-        "hash": "fe78ca206a377435e19583fc1666dfeaef22956fdef1321a9926d572fe2f9211",
+        "added": 1789373310000,
+        "apkName": "continuum_8.3.1.3.apk",
+        "hash": "528b3246a54b78d0f4a1c21734048cce60c030622cdf59fe886c2e5ed844b003",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -148,7 +148,7 @@
         "packageName": "org.cygnusx1.continuum",
         "sig": "2e222b788ea534cef6ffd918bb1a86a8",
         "signer": "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3",
-        "size": 32252488,
+        "size": 32409564,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -218,8 +218,8 @@
             28
           ]
         ],
-        "versionCode": 228,
-        "versionName": "8.3.0.2"
+        "versionCode": 229,
+        "versionName": "8.3.1.3"
       },
       {
         "added": 1788915050000,
