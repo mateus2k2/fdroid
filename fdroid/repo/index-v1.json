@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1789414678000,
+    "timestamp": 1789583323000,
     "version": 20002,
     "name": "Mateus F-Droid repo",
     "icon": "icon.png",
@@ -20,7 +20,7 @@
       "categories": [
         "Internet"
       ],
-      "suggestedVersionName": "8.3.1.4",
+      "suggestedVersionName": "8.3.1.5",
       "suggestedVersionCode": "229",
       "description": "Ad-free Reddit client for Android. Fork of Infinity for Reddit with a clean\nUI and custom API client ID support.\n\nBinaries are the original, developer-signed APKs from the upstream GitHub\nreleases, redistributed unmodified under the AGPL-3.0 license. Only this\nrepo's index is signed by the repo maintainer.\n",
       "issueTracker": "https://github.com/cygnusx-1-org/continuum/issues",
@@ -28,9 +28,9 @@
       "name": "Continuum",
       "sourceCode": "https://github.com/cygnusx-1-org/continuum",
       "summary": "A Reddit client for Android",
-      "added": 1788913637000,
+      "added": 1789197762000,
       "packageName": "org.cygnusx1.continuum",
-      "lastUpdated": 1789414662000,
+      "lastUpdated": 1789583305000,
       "localized": {
         "en-US": {
           "icon": "icon_VHBN-SbizYFpEdojdEE1wc07pQPrrZ_5BftOlZcRihE=.png",
@@ -44,7 +44,7 @@
             "7.png",
             "8.png"
           ],
-          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Implemented Update all the translations #404\n\n* Selftext posts with no preview image use the first image in the post as the preview image\n\n* Sized body images in post details and comments to the width of their block\n\n* Letterboxed autoplaying GIF cards in Fixed Height in Card mode to match video cards"
+          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Implemented Support for more image embeds in comments #412\n* Preloaded feed card previews at their bound size to remove pop-in\n* Fixed Emojis shown in spoilered comments even when not pressed #416\n* Fixed Videos in Shadowbox Mode Failing Randomly #407\n* Fixed Tab strip jumps to last tabs after unsubscribing a middle subreddit tab #405"
         }
       }
     }
@@ -307,9 +307,9 @@
         "versionName": "8.3.1.4"
       },
       {
-        "added": 1788913637000,
-        "apkName": "continuum_8.3.0.4.apk",
-        "hash": "f6671f60b3607265058807a4ec22a99f689a3678f687610557c1ac06b167df9e",
+        "added": 1789583305000,
+        "apkName": "continuum_8.3.1.5.apk",
+        "hash": "2feb5c4a492fac89458bdbcb48a15e26456f427bbc8ec4bdacd0306aa05b09ab",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -318,7 +318,7 @@
         "packageName": "org.cygnusx1.continuum",
         "sig": "2e222b788ea534cef6ffd918bb1a86a8",
         "signer": "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3",
-        "size": 32337650,
+        "size": 33999156,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -388,8 +388,8 @@
             28
           ]
         ],
-        "versionCode": 228,
-        "versionName": "8.3.0.4"
+        "versionCode": 229,
+        "versionName": "8.3.1.5"
       },
       {
         "added": 1789197762000,
