@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/mateus2k2/fdroid/main/fdroid/repo",
-    "timestamp": 1789583323000,
+    "timestamp": 1789670163000,
     "categories": {
       "Internet": {
         "name": {
@@ -26,12 +26,12 @@
   "packages": {
     "org.cygnusx1.continuum": {
       "metadata": {
-        "added": 1789197762000,
+        "added": 1789285248000,
         "categories": [
           "Internet"
         ],
         "issueTracker": "https://github.com/cygnusx-1-org/continuum/issues",
-        "lastUpdated": 1789583305000,
+        "lastUpdated": 1789670146000,
         "license": "AGPL-3.0",
         "sourceCode": "https://github.com/cygnusx-1-org/continuum",
         "screenshots": {
@@ -416,19 +416,19 @@
             ]
           }
         },
-        "ab56fe7d512fd6948391cc2c1d35e79a58558f37c4e094f5765c04040a9f6df2": {
-          "added": 1789197762000,
+        "8fa1a084cde56b4109e40954bfcd59b2eb41e81a6337af843001b9536702791f": {
+          "added": 1789670146000,
           "file": {
-            "name": "/continuum_8.3.1.1.apk",
-            "sha256": "ab56fe7d512fd6948391cc2c1d35e79a58558f37c4e094f5765c04040a9f6df2",
-            "size": 32424572
+            "name": "/continuum_8.3.1.6.apk",
+            "sha256": "8fa1a084cde56b4109e40954bfcd59b2eb41e81a6337af843001b9536702791f",
+            "size": 34006573
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a"
             ],
-            "versionName": "8.3.1.1",
-            "versionCode": 228,
+            "versionName": "8.3.1.6",
+            "versionCode": 229,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 36

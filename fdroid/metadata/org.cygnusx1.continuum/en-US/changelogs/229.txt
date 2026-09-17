@@ -1,7 +1,6 @@
 Note v8a is the 64-bit build, and should be considered the default choice.
 
-* Implemented Support for more image embeds in comments #412
-* Preloaded feed card previews at their bound size to remove pop-in
-* Fixed Emojis shown in spoilered comments even when not pressed #416
-* Fixed Videos in Shadowbox Mode Failing Randomly #407
-* Fixed Tab strip jumps to last tabs after unsubscribing a middle subreddit tab #405
+* Implemented View image index in the gallery view #419
+* Fixed Cannot filter out pinned posts with post filters #420
+* Implemented Highlight followed users #415
+* Implemented Set custom tags for other users like in RES #413
