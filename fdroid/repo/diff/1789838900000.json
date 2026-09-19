@@ -1,0 +1,17 @@
+{
+  "repo": {
+    "timestamp": 1789838917000
+  },
+  "packages": {
+    "org.cygnusx1.continuum": {
+      "versions": {
+        "4b987032d2fc58b42d3bc63b1fee975649350e5a65aae8e598a5020c85843c53": {
+          "releaseChannels": null
+        },
+        "5677844f59411e2992e691966afe6bd6c940f7e63e3c711b9d4fc844b0b90979": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}

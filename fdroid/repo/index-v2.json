@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/mateus2k2/fdroid/main/fdroid/repo",
-    "timestamp": 1789670163000,
+    "timestamp": 1789838917000,
     "categories": {
       "Internet": {
         "name": {
@@ -26,12 +26,12 @@
   "packages": {
     "org.cygnusx1.continuum": {
       "metadata": {
-        "added": 1789285248000,
+        "added": 1789414662000,
         "categories": [
           "Internet"
         ],
         "issueTracker": "https://github.com/cygnusx-1-org/continuum/issues",
-        "lastUpdated": 1789670146000,
+        "lastUpdated": 1789838900000,
         "license": "AGPL-3.0",
         "sourceCode": "https://github.com/cygnusx-1-org/continuum",
         "screenshots": {
@@ -100,19 +100,19 @@
         "preferredSigner": "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3"
       },
       "versions": {
-        "ec87690e2a3fc9744eee702fd0f96dcc6a1aa2d9e9a7594d4f03e84805ed002a": {
-          "added": 1789285248000,
+        "4b987032d2fc58b42d3bc63b1fee975649350e5a65aae8e598a5020c85843c53": {
+          "added": 1789838899000,
           "file": {
-            "name": "/continuum_8.3.1.2.apk",
-            "sha256": "ec87690e2a3fc9744eee702fd0f96dcc6a1aa2d9e9a7594d4f03e84805ed002a",
-            "size": 32409564
+            "name": "/continuum_8.3.1.7.apk",
+            "sha256": "4b987032d2fc58b42d3bc63b1fee975649350e5a65aae8e598a5020c85843c53",
+            "size": 34028996
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a"
             ],
-            "versionName": "8.3.1.2",
-            "versionCode": 229,
+            "versionName": "8.3.1.7",
+            "versionCode": 230,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 36
@@ -179,19 +179,19 @@
             ]
           }
         },
-        "528b3246a54b78d0f4a1c21734048cce60c030622cdf59fe886c2e5ed844b003": {
-          "added": 1789373310000,
+        "5677844f59411e2992e691966afe6bd6c940f7e63e3c711b9d4fc844b0b90979": {
+          "added": 1789838900000,
           "file": {
-            "name": "/continuum_8.3.1.3.apk",
-            "sha256": "528b3246a54b78d0f4a1c21734048cce60c030622cdf59fe886c2e5ed844b003",
-            "size": 32409564
+            "name": "/continuum_8.3.1.8.apk",
+            "sha256": "5677844f59411e2992e691966afe6bd6c940f7e63e3c711b9d4fc844b0b90979",
+            "size": 34028996
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a"
             ],
-            "versionName": "8.3.1.3",
-            "versionCode": 229,
+            "versionName": "8.3.1.8",
+            "versionCode": 230,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 36

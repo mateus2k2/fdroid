@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1789670163000,
+    "timestamp": 1789838917000,
     "version": 20002,
     "name": "Mateus F-Droid repo",
     "icon": "icon.png",
@@ -20,17 +20,17 @@
       "categories": [
         "Internet"
       ],
-      "suggestedVersionName": "8.3.1.6",
-      "suggestedVersionCode": "229",
+      "suggestedVersionName": "8.3.1.8",
+      "suggestedVersionCode": "230",
       "description": "Ad-free Reddit client for Android. Fork of Infinity for Reddit with a clean\nUI and custom API client ID support.\n\nBinaries are the original, developer-signed APKs from the upstream GitHub\nreleases, redistributed unmodified under the AGPL-3.0 license. Only this\nrepo's index is signed by the repo maintainer.\n",
       "issueTracker": "https://github.com/cygnusx-1-org/continuum/issues",
       "license": "AGPL-3.0",
       "name": "Continuum",
       "sourceCode": "https://github.com/cygnusx-1-org/continuum",
       "summary": "A Reddit client for Android",
-      "added": 1789285248000,
+      "added": 1789414662000,
       "packageName": "org.cygnusx1.continuum",
-      "lastUpdated": 1789670146000,
+      "lastUpdated": 1789838900000,
       "localized": {
         "en-US": {
           "icon": "icon_VHBN-SbizYFpEdojdEE1wc07pQPrrZ_5BftOlZcRihE=.png",
@@ -44,7 +44,7 @@
             "7.png",
             "8.png"
           ],
-          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Implemented View image index in the gallery view #419\n* Fixed Cannot filter out pinned posts with post filters #420\n* Implemented Highlight followed users #415\n* Implemented Set custom tags for other users like in RES #413"
+          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Fixed default Comment Swipe Actions"
         }
       }
     }
@@ -52,9 +52,9 @@
   "packages": {
     "org.cygnusx1.continuum": [
       {
-        "added": 1789285248000,
-        "apkName": "continuum_8.3.1.2.apk",
-        "hash": "ec87690e2a3fc9744eee702fd0f96dcc6a1aa2d9e9a7594d4f03e84805ed002a",
+        "added": 1789838899000,
+        "apkName": "continuum_8.3.1.7.apk",
+        "hash": "4b987032d2fc58b42d3bc63b1fee975649350e5a65aae8e598a5020c85843c53",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -63,7 +63,7 @@
         "packageName": "org.cygnusx1.continuum",
         "sig": "2e222b788ea534cef6ffd918bb1a86a8",
         "signer": "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3",
-        "size": 32409564,
+        "size": 34028996,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -133,13 +133,13 @@
             28
           ]
         ],
-        "versionCode": 229,
-        "versionName": "8.3.1.2"
+        "versionCode": 230,
+        "versionName": "8.3.1.7"
       },
       {
-        "added": 1789373310000,
-        "apkName": "continuum_8.3.1.3.apk",
-        "hash": "528b3246a54b78d0f4a1c21734048cce60c030622cdf59fe886c2e5ed844b003",
+        "added": 1789838900000,
+        "apkName": "continuum_8.3.1.8.apk",
+        "hash": "5677844f59411e2992e691966afe6bd6c940f7e63e3c711b9d4fc844b0b90979",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -148,7 +148,7 @@
         "packageName": "org.cygnusx1.continuum",
         "sig": "2e222b788ea534cef6ffd918bb1a86a8",
         "signer": "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3",
-        "size": 32409564,
+        "size": 34028996,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -218,8 +218,8 @@
             28
           ]
         ],
-        "versionCode": 229,
-        "versionName": "8.3.1.3"
+        "versionCode": 230,
+        "versionName": "8.3.1.8"
       },
       {
         "added": 1789414662000,
