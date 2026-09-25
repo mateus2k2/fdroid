@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1789838917000,
+    "timestamp": 1790323974000,
     "version": 20002,
     "name": "Mateus F-Droid repo",
     "icon": "icon.png",
@@ -20,7 +20,7 @@
       "categories": [
         "Internet"
       ],
-      "suggestedVersionName": "8.3.1.8",
+      "suggestedVersionName": "8.3.1.9",
       "suggestedVersionCode": "230",
       "description": "Ad-free Reddit client for Android. Fork of Infinity for Reddit with a clean\nUI and custom API client ID support.\n\nBinaries are the original, developer-signed APKs from the upstream GitHub\nreleases, redistributed unmodified under the AGPL-3.0 license. Only this\nrepo's index is signed by the repo maintainer.\n",
       "issueTracker": "https://github.com/cygnusx-1-org/continuum/issues",
@@ -28,9 +28,9 @@
       "name": "Continuum",
       "sourceCode": "https://github.com/cygnusx-1-org/continuum",
       "summary": "A Reddit client for Android",
-      "added": 1789414662000,
+      "added": 1789583305000,
       "packageName": "org.cygnusx1.continuum",
-      "lastUpdated": 1789838900000,
+      "lastUpdated": 1790323959000,
       "localized": {
         "en-US": {
           "icon": "icon_VHBN-SbizYFpEdojdEE1wc07pQPrrZ_5BftOlZcRihE=.png",
@@ -44,7 +44,7 @@
             "7.png",
             "8.png"
           ],
-          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Fixed default Comment Swipe Actions"
+          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Fixed Improve searching comments #427\n* Fixed Issues with post filters related to wildcard rules and Applied to choices #426\n* Fixed Tab strip jumps to last tabs after unsubscribing a middle subreddit tab #405\n* Fixed Collapsing a comment mutes post video and makes it lag for a moment #423"
         }
       }
     }
@@ -222,9 +222,9 @@
         "versionName": "8.3.1.8"
       },
       {
-        "added": 1789414662000,
-        "apkName": "continuum_8.3.1.4.apk",
-        "hash": "4d6028e178df5a3564aaf7b0742a0fdb8ca307bf589a6b832da91671b87848d2",
+        "added": 1790323959000,
+        "apkName": "continuum_8.3.1.9.apk",
+        "hash": "f2f6b0af2f765b887cc5af024b929ca13b96fef640df10db89afc0c980f06495",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -233,7 +233,7 @@
         "packageName": "org.cygnusx1.continuum",
         "sig": "2e222b788ea534cef6ffd918bb1a86a8",
         "signer": "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3",
-        "size": 33962180,
+        "size": 34051376,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -303,8 +303,8 @@
             28
           ]
         ],
-        "versionCode": 229,
-        "versionName": "8.3.1.4"
+        "versionCode": 230,
+        "versionName": "8.3.1.9"
       },
       {
         "added": 1789583305000,
