@@ -4,8 +4,8 @@ AuthorName: cygnusx-1-org
 AutoName: Continuum
 Categories:
     - Internet
-CurrentVersion: 8.3.1.9
-CurrentVersionCode: 230
+CurrentVersion: 8.3.3.1
+CurrentVersionCode: 231
 Description: |
     Ad-free Reddit client for Android. Fork of Infinity for Reddit with a clean
     UI and custom API client ID support.
