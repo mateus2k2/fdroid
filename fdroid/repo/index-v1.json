@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1791103842000,
+    "timestamp": 1791138250000,
     "version": 20002,
     "name": "Mateus F-Droid repo",
     "icon": "icon.png",
@@ -44,7 +44,7 @@
             "7.png",
             "8.png"
           ],
-          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Fixed Hide read posts setting only works after restarting the app #442\n* Made every setting but Post Filters apply without an app restart\n* Fixed Editing an existing comment sometimes doesn't show anything, but the input box #310\n* Fixed Random SFW/NSFW subreddit option keeps returning the same subreddits across sessions #441\n* Added Read Aloud to the Bottom Sheet menu in the feed"
+          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Fixed Hide read posts setting only works after restarting the app #442\n* Made every setting but Post Filters apply without an app restart\n* Fixed Random SFW/NSFW subreddit option keeps returning the same subreddits across sessions #441\n* Added Read Aloud to the Bottom Sheet menu in the feed"
         }
       }
     }
