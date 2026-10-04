@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1790846874000,
+    "timestamp": 1791103842000,
     "version": 20002,
     "name": "Mateus F-Droid repo",
     "icon": "icon.png",
@@ -20,7 +20,7 @@
       "categories": [
         "Internet"
       ],
-      "suggestedVersionName": "8.3.3.1",
+      "suggestedVersionName": "8.3.3.2",
       "suggestedVersionCode": "231",
       "description": "Ad-free Reddit client for Android. Fork of Infinity for Reddit with a clean\nUI and custom API client ID support.\n\nBinaries are the original, developer-signed APKs from the upstream GitHub\nreleases, redistributed unmodified under the AGPL-3.0 license. Only this\nrepo's index is signed by the repo maintainer.\n",
       "issueTracker": "https://github.com/cygnusx-1-org/continuum/issues",
@@ -28,9 +28,9 @@
       "name": "Continuum",
       "sourceCode": "https://github.com/cygnusx-1-org/continuum",
       "summary": "A Reddit client for Android",
-      "added": 1789670146000,
+      "added": 1789838899000,
       "packageName": "org.cygnusx1.continuum",
-      "lastUpdated": 1790846858000,
+      "lastUpdated": 1791103827000,
       "localized": {
         "en-US": {
           "icon": "icon_VHBN-SbizYFpEdojdEE1wc07pQPrrZ_5BftOlZcRihE=.png",
@@ -44,7 +44,7 @@
             "7.png",
             "8.png"
           ],
-          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Updated to `upstream` version 8.3.3\n* Implemented Support for stickers in comments #432\n* Implemented Kill momentum when pressing floating button to go to next comment #433\n* Fixed Comment gestures trigger even if the option is disabled #431\n* Fixed Comments containing only 9 or less digits followed by a period appear invisible #430"
+          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Fixed Hide read posts setting only works after restarting the app #442\n* Made every setting but Post Filters apply without an app restart\n* Fixed Editing an existing comment sometimes doesn't show anything, but the input box #310\n* Fixed Random SFW/NSFW subreddit option keeps returning the same subreddits across sessions #441\n* Added Read Aloud to the Bottom Sheet menu in the feed"
         }
       }
     }
@@ -135,6 +135,91 @@
         ],
         "versionCode": 231,
         "versionName": "8.3.3.1"
+      },
+      {
+        "added": 1791103827000,
+        "apkName": "continuum_8.3.3.2.apk",
+        "hash": "c8a8622111acf13230a4ee33bee6d51bbe1f07a9f439de809f7865fa78cd970b",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "org.cygnusx1.continuum",
+        "sig": "2e222b788ea534cef6ffd918bb1a86a8",
+        "signer": "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3",
+        "size": 34118640,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            22
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.RUN_USER_INITIATED_JOBS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "org.cygnusx1.continuum.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            22
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ]
+        ],
+        "versionCode": 231,
+        "versionName": "8.3.3.2"
       },
       {
         "added": 1789838899000,
@@ -390,91 +475,6 @@
         ],
         "versionCode": 230,
         "versionName": "8.3.1.9"
-      },
-      {
-        "added": 1789670146000,
-        "apkName": "continuum_8.3.1.6.apk",
-        "hash": "8fa1a084cde56b4109e40954bfcd59b2eb41e81a6337af843001b9536702791f",
-        "hashType": "sha256",
-        "minSdkVersion": 24,
-        "nativecode": [
-          "arm64-v8a"
-        ],
-        "packageName": "org.cygnusx1.continuum",
-        "sig": "2e222b788ea534cef6ffd918bb1a86a8",
-        "signer": "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3",
-        "size": 34006573,
-        "targetSdkVersion": 36,
-        "uses-permission": [
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.SET_WALLPAPER",
-            null
-          ],
-          [
-            "android.permission.SET_WALLPAPER_HINTS",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            22
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "android.permission.CAMERA",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.RUN_USER_INITIATED_JOBS",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.USE_BIOMETRIC",
-            null
-          ],
-          [
-            "android.permission.USE_FINGERPRINT",
-            null
-          ],
-          [
-            "org.cygnusx1.continuum.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            22
-          ]
-        ],
-        "uses-permission-sdk-23": [
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            28
-          ]
-        ],
-        "versionCode": 229,
-        "versionName": "8.3.1.6"
       }
     ]
   }
