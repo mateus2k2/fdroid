@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1791710416000,
+    "timestamp": 1792397212000,
     "version": 20002,
     "name": "Mateus F-Droid repo",
     "icon": "icon.png",
@@ -20,7 +20,7 @@
       "categories": [
         "Internet"
       ],
-      "suggestedVersionName": "8.3.3.3",
+      "suggestedVersionName": "8.3.3.4",
       "suggestedVersionCode": "231",
       "description": "Ad-free Reddit client for Android. Fork of Infinity for Reddit with a clean\nUI and custom API client ID support.\n\nBinaries are the original, developer-signed APKs from the upstream GitHub\nreleases, redistributed unmodified under the AGPL-3.0 license. Only this\nrepo's index is signed by the repo maintainer.\n",
       "issueTracker": "https://github.com/cygnusx-1-org/continuum/issues",
@@ -28,9 +28,9 @@
       "name": "Continuum",
       "sourceCode": "https://github.com/cygnusx-1-org/continuum",
       "summary": "A Reddit client for Android",
-      "added": 1789838900000,
+      "added": 1790323959000,
       "packageName": "org.cygnusx1.continuum",
-      "lastUpdated": 1791710405000,
+      "lastUpdated": 1792397199000,
       "localized": {
         "en-US": {
           "icon": "icon_VHBN-SbizYFpEdojdEE1wc07pQPrrZ_5BftOlZcRihE=.png",
@@ -44,7 +44,7 @@
             "7.png",
             "8.png"
           ],
-          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\nFixed Long loading for some post comments. #446"
+          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Implemented Expand the \"optionally use old reddit url for sharing\" option into fully customizable sharing domain #453\n* Fixed TTS Button Does Nothing #456\n* Fixed Importing anon/backup from Infinity doesn't work #457\n* Fixed All tab showing Saved tab Contents #455\n\n# Notes\n`Settings > Miscellaneous > Domain for Shared Links` now lets you set different\n[embed fixer](https://github.com/seriaati/embed-fixer) hostnames, an"
         }
       }
     }
@@ -307,9 +307,9 @@
         "versionName": "8.3.3.3"
       },
       {
-        "added": 1789838900000,
-        "apkName": "continuum_8.3.1.8.apk",
-        "hash": "5677844f59411e2992e691966afe6bd6c940f7e63e3c711b9d4fc844b0b90979",
+        "added": 1792397199000,
+        "apkName": "continuum_8.3.3.4.apk",
+        "hash": "b9b6d72a81acabd241a8e71ffc82e5bca9cb5c442681623d5612680b90dbc5a3",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -318,7 +318,7 @@
         "packageName": "org.cygnusx1.continuum",
         "sig": "2e222b788ea534cef6ffd918bb1a86a8",
         "signer": "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3",
-        "size": 34028996,
+        "size": 34139096,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -388,8 +388,8 @@
             28
           ]
         ],
-        "versionCode": 230,
-        "versionName": "8.3.1.8"
+        "versionCode": 231,
+        "versionName": "8.3.3.4"
       },
       {
         "added": 1790323959000,
