@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1792397212000,
+    "timestamp": 1792569678000,
     "version": 20002,
     "name": "Mateus F-Droid repo",
     "icon": "icon.png",
@@ -20,7 +20,7 @@
       "categories": [
         "Internet"
       ],
-      "suggestedVersionName": "8.3.3.4",
+      "suggestedVersionName": "8.3.3.5",
       "suggestedVersionCode": "231",
       "description": "Ad-free Reddit client for Android. Fork of Infinity for Reddit with a clean\nUI and custom API client ID support.\n\nBinaries are the original, developer-signed APKs from the upstream GitHub\nreleases, redistributed unmodified under the AGPL-3.0 license. Only this\nrepo's index is signed by the repo maintainer.\n",
       "issueTracker": "https://github.com/cygnusx-1-org/continuum/issues",
@@ -28,9 +28,9 @@
       "name": "Continuum",
       "sourceCode": "https://github.com/cygnusx-1-org/continuum",
       "summary": "A Reddit client for Android",
-      "added": 1790323959000,
+      "added": 1790846858000,
       "packageName": "org.cygnusx1.continuum",
-      "lastUpdated": 1792397199000,
+      "lastUpdated": 1792569666000,
       "localized": {
         "en-US": {
           "icon": "icon_VHBN-SbizYFpEdojdEE1wc07pQPrrZ_5BftOlZcRihE=.png",
@@ -44,7 +44,7 @@
             "7.png",
             "8.png"
           ],
-          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Implemented Expand the \"optionally use old reddit url for sharing\" option into fully customizable sharing domain #453\n* Fixed TTS Button Does Nothing #456\n* Fixed Importing anon/backup from Infinity doesn't work #457\n* Fixed All tab showing Saved tab Contents #455\n\n# Notes\n`Settings > Miscellaneous > Domain for Shared Links` now lets you set different\n[embed fixer](https://github.com/seriaati/embed-fixer) hostnames, an"
+          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Fixed Some posts are missing image attachments #459\n* Fixed Flairs with images don't work #458"
         }
       }
     }
@@ -392,9 +392,9 @@
         "versionName": "8.3.3.4"
       },
       {
-        "added": 1790323959000,
-        "apkName": "continuum_8.3.1.9.apk",
-        "hash": "f2f6b0af2f765b887cc5af024b929ca13b96fef640df10db89afc0c980f06495",
+        "added": 1792569666000,
+        "apkName": "continuum_8.3.3.5.apk",
+        "hash": "c97150905d1bfe54e6f756df93c72c64eb20bb4ebcab3d60b885f173c2707d29",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -403,7 +403,7 @@
         "packageName": "org.cygnusx1.continuum",
         "sig": "2e222b788ea534cef6ffd918bb1a86a8",
         "signer": "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3",
-        "size": 34051376,
+        "size": 34139096,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -473,8 +473,8 @@
             28
           ]
         ],
-        "versionCode": 230,
-        "versionName": "8.3.1.9"
+        "versionCode": 231,
+        "versionName": "8.3.3.5"
       }
     ]
   }
