@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1792569678000,
+    "timestamp": 1792655964000,
     "version": 20002,
     "name": "Mateus F-Droid repo",
     "icon": "icon.png",
@@ -20,7 +20,7 @@
       "categories": [
         "Internet"
       ],
-      "suggestedVersionName": "8.3.3.5",
+      "suggestedVersionName": "8.3.3.6",
       "suggestedVersionCode": "231",
       "description": "Ad-free Reddit client for Android. Fork of Infinity for Reddit with a clean\nUI and custom API client ID support.\n\nBinaries are the original, developer-signed APKs from the upstream GitHub\nreleases, redistributed unmodified under the AGPL-3.0 license. Only this\nrepo's index is signed by the repo maintainer.\n",
       "issueTracker": "https://github.com/cygnusx-1-org/continuum/issues",
@@ -28,9 +28,9 @@
       "name": "Continuum",
       "sourceCode": "https://github.com/cygnusx-1-org/continuum",
       "summary": "A Reddit client for Android",
-      "added": 1790846858000,
+      "added": 1791103827000,
       "packageName": "org.cygnusx1.continuum",
-      "lastUpdated": 1792569666000,
+      "lastUpdated": 1792655948000,
       "localized": {
         "en-US": {
           "icon": "icon_VHBN-SbizYFpEdojdEE1wc07pQPrrZ_5BftOlZcRihE=.png",
@@ -44,98 +44,13 @@
             "7.png",
             "8.png"
           ],
-          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Fixed Some posts are missing image attachments #459\n* Fixed Flairs with images don't work #458"
+          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Fixed Gallery posting is broken #464\n* Fixed History Limit doesn't declare the minimum #461"
         }
       }
     }
   ],
   "packages": {
     "org.cygnusx1.continuum": [
-      {
-        "added": 1790846858000,
-        "apkName": "continuum_8.3.3.1.apk",
-        "hash": "9e5b7e062a711dbe19d5a3ab09f6765783460bff4b8bcd6d00ae67632c60e7d5",
-        "hashType": "sha256",
-        "minSdkVersion": 24,
-        "nativecode": [
-          "arm64-v8a"
-        ],
-        "packageName": "org.cygnusx1.continuum",
-        "sig": "2e222b788ea534cef6ffd918bb1a86a8",
-        "signer": "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3",
-        "size": 34122108,
-        "targetSdkVersion": 36,
-        "uses-permission": [
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.SET_WALLPAPER",
-            null
-          ],
-          [
-            "android.permission.SET_WALLPAPER_HINTS",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            22
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "android.permission.CAMERA",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.RUN_USER_INITIATED_JOBS",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.USE_BIOMETRIC",
-            null
-          ],
-          [
-            "android.permission.USE_FINGERPRINT",
-            null
-          ],
-          [
-            "org.cygnusx1.continuum.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            22
-          ]
-        ],
-        "uses-permission-sdk-23": [
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            28
-          ]
-        ],
-        "versionCode": 231,
-        "versionName": "8.3.3.1"
-      },
       {
         "added": 1791103827000,
         "apkName": "continuum_8.3.3.2.apk",
@@ -475,6 +390,91 @@
         ],
         "versionCode": 231,
         "versionName": "8.3.3.5"
+      },
+      {
+        "added": 1792655948000,
+        "apkName": "continuum_8.3.3.6.apk",
+        "hash": "e8491936aa9106fa9ddc9b73b36594d4451ee171f5a62eb6ac2378d5a2bab351",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "org.cygnusx1.continuum",
+        "sig": "2e222b788ea534cef6ffd918bb1a86a8",
+        "signer": "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3",
+        "size": 34139588,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            22
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.RUN_USER_INITIATED_JOBS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "org.cygnusx1.continuum.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            22
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ]
+        ],
+        "versionCode": 231,
+        "versionName": "8.3.3.6"
       }
     ]
   }
