@@ -1,4 +1,10 @@
 Note v8a is the 64-bit build, and should be considered the default choice.
 
-* Fixed Gallery posting is broken #464
-* Fixed History Limit doesn't declare the minimum #461
+* Load more comments fails with 403 "blocked by network security" #475
+* Fixed Issues with using Top Day/Week in multireddit #469
+* Fixed OAuth login CSRF via hardcoded state in exported deep-link redirect handler
+
+# Notes
+`Reddit` broke some of the `API` related to loading more comments, but only for the `RedReader` client ID.
+
+There is a new setting, `Settings > Interface > Comment > Use Old Load More Comments Method`. It does it the old way that works with non-`RedReader` client IDs. `RedReader` is the default client ID.
