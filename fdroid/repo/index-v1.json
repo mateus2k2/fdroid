@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1793472432000,
+    "timestamp": 1793526421000,
     "version": 20002,
     "name": "Mateus F-Droid repo",
     "icon": "icon.png",
@@ -20,17 +20,17 @@
       "categories": [
         "Internet"
       ],
-      "suggestedVersionName": "8.3.3.7",
-      "suggestedVersionCode": "231",
+      "suggestedVersionName": "8.3.3.8",
+      "suggestedVersionCode": "232",
       "description": "Ad-free Reddit client for Android. Fork of Infinity for Reddit with a clean\nUI and custom API client ID support.\n\nBinaries are the original, developer-signed APKs from the upstream GitHub\nreleases, redistributed unmodified under the AGPL-3.0 license. Only this\nrepo's index is signed by the repo maintainer.\n",
       "issueTracker": "https://github.com/cygnusx-1-org/continuum/issues",
       "license": "AGPL-3.0",
       "name": "Continuum",
       "sourceCode": "https://github.com/cygnusx-1-org/continuum",
       "summary": "A Reddit client for Android",
-      "added": 1791710405000,
+      "added": 1792397199000,
       "packageName": "org.cygnusx1.continuum",
-      "lastUpdated": 1793472417000,
+      "lastUpdated": 1793526404000,
       "localized": {
         "en-US": {
           "icon": "icon_VHBN-SbizYFpEdojdEE1wc07pQPrrZ_5BftOlZcRihE=.png",
@@ -44,7 +44,7 @@
             "7.png",
             "8.png"
           ],
-          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Load more comments fails with 403 \"blocked by network security\" #475\n* Fixed Issues with using Top Day/Week in multireddit #469\n* Fixed OAuth login CSRF via hardcoded state in exported deep-link redirect handler\n\n# Notes\n`Reddit` broke some of the `API` related to loading more comments, but only for the `RedReader` client ID.\n\nThere is a new setting, `Settings > Interface > Comment > Use Old Load More Comments Method`."
+          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Added Anonymous comment saving\n* Fixed Saved posts for Anonymous"
         }
       }
     }
@@ -52,9 +52,9 @@
   "packages": {
     "org.cygnusx1.continuum": [
       {
-        "added": 1791710405000,
-        "apkName": "continuum_8.3.3.3.apk",
-        "hash": "0e60f1ca9cb0b15c0f803ff17f24fac71ac5f6a9f094544bb150d3d76e55edf6",
+        "added": 1793526404000,
+        "apkName": "continuum_8.3.3.8.apk",
+        "hash": "f8d1f4f2a43b0b966739af168274ccc85db99bab5ec5942fa2004bb55d1b8187",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -63,7 +63,7 @@
         "packageName": "org.cygnusx1.continuum",
         "sig": "2e222b788ea534cef6ffd918bb1a86a8",
         "signer": "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3",
-        "size": 34135024,
+        "size": 34189792,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -133,8 +133,8 @@
             28
           ]
         ],
-        "versionCode": 231,
-        "versionName": "8.3.3.3"
+        "versionCode": 232,
+        "versionName": "8.3.3.8"
       },
       {
         "added": 1792397199000,
