@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1793526421000,
+    "timestamp": 1793613613000,
     "version": 20002,
     "name": "Mateus F-Droid repo",
     "icon": "icon.png",
@@ -20,7 +20,7 @@
       "categories": [
         "Internet"
       ],
-      "suggestedVersionName": "8.3.3.8",
+      "suggestedVersionName": "8.3.3.9",
       "suggestedVersionCode": "232",
       "description": "Ad-free Reddit client for Android. Fork of Infinity for Reddit with a clean\nUI and custom API client ID support.\n\nBinaries are the original, developer-signed APKs from the upstream GitHub\nreleases, redistributed unmodified under the AGPL-3.0 license. Only this\nrepo's index is signed by the repo maintainer.\n",
       "issueTracker": "https://github.com/cygnusx-1-org/continuum/issues",
@@ -28,9 +28,9 @@
       "name": "Continuum",
       "sourceCode": "https://github.com/cygnusx-1-org/continuum",
       "summary": "A Reddit client for Android",
-      "added": 1792397199000,
+      "added": 1792569666000,
       "packageName": "org.cygnusx1.continuum",
-      "lastUpdated": 1793526404000,
+      "lastUpdated": 1793613600000,
       "localized": {
         "en-US": {
           "icon": "icon_VHBN-SbizYFpEdojdEE1wc07pQPrrZ_5BftOlZcRihE=.png",
@@ -44,7 +44,7 @@
             "7.png",
             "8.png"
           ],
-          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Added Anonymous comment saving\n* Fixed Saved posts for Anonymous"
+          "whatsNew": "Note v8a is the 64-bit build, and should be considered the default choice.\n\n* Implemented allow automatic bullet pointing #447\n* Enabled gallery grids by default\n* Changed gallery grids to use a 1x2 or 2x2 grid, with +X on the fourth cell\n* Fixed low-res and stuck feed images, sharper galleries on wide screens\n\n# Notes\nGallery grids with five or more images get a +X marker on the fourth image. If the you press the fourth image you get taken to the fourth image."
         }
       }
     }
@@ -137,9 +137,9 @@
         "versionName": "8.3.3.8"
       },
       {
-        "added": 1792397199000,
-        "apkName": "continuum_8.3.3.4.apk",
-        "hash": "b9b6d72a81acabd241a8e71ffc82e5bca9cb5c442681623d5612680b90dbc5a3",
+        "added": 1793613600000,
+        "apkName": "continuum_8.3.3.9.apk",
+        "hash": "78b9eeef3675645280887e575b3c4d2f43d07f2a9b09481b2605d17430a2500a",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -148,7 +148,7 @@
         "packageName": "org.cygnusx1.continuum",
         "sig": "2e222b788ea534cef6ffd918bb1a86a8",
         "signer": "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3",
-        "size": 34139096,
+        "size": 34190392,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -218,8 +218,8 @@
             28
           ]
         ],
-        "versionCode": 231,
-        "versionName": "8.3.3.4"
+        "versionCode": 232,
+        "versionName": "8.3.3.9"
       },
       {
         "added": 1792569666000,
