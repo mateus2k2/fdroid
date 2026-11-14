@@ -1,5 +1,3 @@
 Note v8a is the 64-bit build, and should be considered the default choice.
 
-* Implemented [Enhancement] Show existing subreddits as selected (or hide them) when editing a multireddit to prevent duplicates #483
-* Fixed [BUG] Disabled Main Tabs still allowing invisible Navigation when swiped. #482
-* Fixed Incorrect handling of parentheses in links #480
+Restarted the app on Enable Overrides toggle to fix redirect_uri login errors
