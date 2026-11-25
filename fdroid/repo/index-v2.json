@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/mateus2k2/fdroid/main/fdroid/repo",
-    "timestamp": 1795525106000,
+    "timestamp": 1795648892000,
     "categories": {
       "Internet": {
         "name": {
@@ -26,12 +26,12 @@
   "packages": {
     "org.cygnusx1.continuum": {
       "metadata": {
-        "added": 1793613600000,
+        "added": 1793660111000,
         "categories": [
           "Internet"
         ],
         "issueTracker": "https://github.com/cygnusx-1-org/continuum/issues",
-        "lastUpdated": 1795525090000,
+        "lastUpdated": 1795648876000,
         "license": "AGPL-3.0",
         "sourceCode": "https://github.com/cygnusx-1-org/continuum",
         "screenshots": {
@@ -112,6 +112,85 @@
               "arm64-v8a"
             ],
             "versionName": "8.4.0.1",
+            "versionCode": 234,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RUN_USER_INITIATED_JOBS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "org.cygnusx1.continuum.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        },
+        "98885d20251ce04bcdf5aebceb11df2615e2e2e255955ab734fd4a8bc2de1e2b": {
+          "added": 1795648876000,
+          "file": {
+            "name": "/continuum_8.4.0.2.apk",
+            "sha256": "98885d20251ce04bcdf5aebceb11df2615e2e2e255955ab734fd4a8bc2de1e2b",
+            "size": 34980833
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "8.4.0.2",
             "versionCode": 234,
             "usesSdk": {
               "minSdkVersion": 24,
@@ -350,85 +429,6 @@
             ],
             "versionName": "8.3.3.9.3",
             "versionCode": 233,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 36
-            },
-            "signer": {
-              "sha256": [
-                "4f34bfd20cc4841510e7effb75cbfbc23a09c2ca92d04ced5b336c8f25a0d3e3"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.SET_WALLPAPER"
-              },
-              {
-                "name": "android.permission.SET_WALLPAPER_HINTS"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 22
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.RUN_USER_INITIATED_JOBS"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "org.cygnusx1.continuum.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 22
-              }
-            ],
-            "usesPermissionSdk23": [
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              }
-            ]
-          }
-        },
-        "78b9eeef3675645280887e575b3c4d2f43d07f2a9b09481b2605d17430a2500a": {
-          "added": 1793613600000,
-          "file": {
-            "name": "/continuum_8.3.3.9.apk",
-            "sha256": "78b9eeef3675645280887e575b3c4d2f43d07f2a9b09481b2605d17430a2500a",
-            "size": 34190392
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a"
-            ],
-            "versionName": "8.3.3.9",
-            "versionCode": 232,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 36

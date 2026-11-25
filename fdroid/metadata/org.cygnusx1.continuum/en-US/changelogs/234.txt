@@ -1,6 +1,3 @@
 Note v8a is the 64-bit build, and should be considered the default choice.
 
-* Updated to 8.4.0
-* Fixed Crashing in shadowbox mode #502
-* Implemented Vote buttons have inconsistent spacing #494
-* Implemented Inconsistent text and image padding in `Compact Layout` #500
+* Fixed Error fetching video #498
